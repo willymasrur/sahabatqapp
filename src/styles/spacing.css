@@ -1,0 +1,22 @@
+.layout-mobile{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.font-regular{
+    font-size: 12px;
+    line-height: 16px;
+}
+
+#__next{
+    background: #F3F3F3;
+}
+
+.chat-baloon-question{
+    @apply p-4 rounded-3xl max-w-xs overflow-auto rounded-tl-none;
+}
+.chat-baloon-answer{
+    @apply p-4 rounded-3xl max-w-xs overflow-auto rounded-br-none;
+}
